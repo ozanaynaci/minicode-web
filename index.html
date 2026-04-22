@@ -5,89 +5,213 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minicode | Yazılım ve İnovasyon</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
     <style>
-      body { font-family: "Inter", sans-serif; background-color: #ffffff; color: #111827; scroll-behavior: smooth; overflow-x: hidden; }
-      .hero-gradient { background: radial-gradient(circle at top right, #f9fafb, #ffffff); }
-      #privacy-modal { display: none; }
-      #privacy-modal:target { display: flex; }
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #ffffff;
+        color: #111827;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
+      .hero-gradient {
+        background: radial-gradient(circle at top right, #f9fafb, #ffffff);
+      }
+      #privacy-modal {
+        display: none;
+      }
+      #privacy-modal:target {
+        display: flex;
+      }
     </style>
   </head>
   <body class="hero-gradient">
     <nav class="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
-      <div class="text-2xl font-black tracking-tighter text-blue-600">MINICODE</div>
+      <div class="text-2xl font-black tracking-tighter text-blue-600">
+        MINICODE
+      </div>
       <div class="flex space-x-6 text-sm font-semibold text-gray-500">
-        <a href="#ozellikler" class="hover:text-blue-600 transition">Projeler</a>
+        <a href="#ozellikler" class="hover:text-blue-600 transition"
+          >Projeler</a
+        >
         <a href="#iletisim" class="hover:text-blue-600 transition">Destek</a>
       </div>
     </nav>
 
-    <section class="max-w-7xl mx-auto px-6 pt-16 pb-24 text-center md:text-left flex flex-col md:flex-row items-center">
+    <section
+      class="max-w-7xl mx-auto px-6 pt-16 pb-24 text-center md:text-left flex flex-col md:flex-row items-center"
+    >
       <div class="md:w-1/2">
-        <h1 class="text-5xl md:text-8xl font-black leading-tight mb-8 tracking-tighter">
-          Geleceği <br><span class="text-blue-600">Kodluyoruz.</span>
+        <h1
+          class="text-5xl md:text-8xl font-black leading-tight mb-8 tracking-tighter"
+        >
+          Geleceği <br /><span class="text-blue-600">Kodluyoruz.</span>
         </h1>
         <p class="text-lg text-gray-500 mb-10 max-w-lg leading-relaxed">
-          Modern yazılım mimarileri ve kullanıcı odaklı mobil deneyimler. 
+          Modern yazılım mimarileri ve kullanıcı odaklı mobil deneyimler.
           Minicode, dijital dönüşüm yolculuğunuzda yanınızda.
         </p>
         <div class="flex justify-center md:justify-start">
-          <a href="#iletisim" class="bg-blue-600 text-white px-8 py-4 rounded-full font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200">
+          <a
+            href="#iletisim"
+            class="bg-blue-600 text-white px-8 py-4 rounded-full font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200"
+          >
             İletişime Geçin
           </a>
         </div>
       </div>
       <div class="md:w-1/2 mt-16 md:mt-0">
-        <div class="bg-gray-100 w-56 h-[450px] mx-auto rounded-[2.5rem] border-[6px] border-gray-900 shadow-xl flex items-center justify-center">
-          <span class="text-gray-400 font-bold text-sm text-center px-4">MINICODE APP</span>
+        <div
+          class="bg-gray-100 w-56 h-[450px] mx-auto rounded-[2.5rem] border-[6px] border-gray-900 shadow-xl flex items-center justify-center relative overflow-hidden"
+        >
+          <div
+            class="absolute top-0 w-full h-6 bg-gray-900 flex justify-center items-end pb-1"
+          >
+            <div class="w-12 h-1 bg-gray-800 rounded-full"></div>
+          </div>
+          <span class="text-blue-600 font-black text-xl text-center px-4"
+            >CEPTE</span
+          >
         </div>
       </div>
     </section>
 
     <section id="ozellikler" class="bg-gray-50 py-24">
-      <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10 text-center md:text-left">
+      <div
+        class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10 text-center md:text-left"
+      >
         <div class="p-4">
-          <div class="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center text-xl mx-auto md:mx-0 mb-4">📱</div>
+          <div
+            class="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center text-xl mx-auto md:mx-0 mb-4"
+          >
+            📱
+          </div>
           <h3 class="text-lg font-bold">Mobil Uygulamalar</h3>
-          <p class="text-gray-500 text-sm leading-relaxed">Flutter ve Dart ile yüksek performanslı, yerel uygulama deneyimi.</p>
+          <p class="text-gray-500 text-sm leading-relaxed">
+            Flutter ve Dart ile yüksek performanslı, yerel uygulama deneyimi.
+          </p>
         </div>
         <div class="p-4">
-          <div class="w-10 h-10 bg-gray-200 rounded-xl flex items-center justify-center text-xl mx-auto md:mx-0 mb-4">⚡</div>
+          <div
+            class="w-10 h-10 bg-gray-200 rounded-xl flex items-center justify-center text-xl mx-auto md:mx-0 mb-4"
+          >
+            ⚡
+          </div>
           <h3 class="text-lg font-bold">Hızlı Entegrasyon</h3>
-          <p class="text-gray-500 text-sm leading-relaxed">Modern teknolojilerle iş süreçlerinizi hızlandıran yenilikçi yapılar.</p>
+          <p class="text-gray-500 text-sm leading-relaxed">
+            Modern teknolojilerle iş süreçlerinizi hızlandıran yenilikçi
+            yapılar.
+          </p>
         </div>
         <div class="p-4">
-          <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-xl mx-auto md:mx-0 text-white mb-4">✨</div>
+          <div
+            class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-xl mx-auto md:mx-0 text-white mb-4"
+          >
+            ✨
+          </div>
           <h3 class="text-lg font-bold">Sade Tasarım</h3>
-          <p class="text-gray-500 text-sm leading-relaxed">Karmaşadan uzak, amaca yönelik kullanıcı dostu arayüzler.</p>
+          <p class="text-gray-500 text-sm leading-relaxed">
+            Karmaşadan uzak, amaca yönelik kullanıcı dostu arayüzler.
+          </p>
         </div>
       </div>
     </section>
 
-    <footer id="iletisim" class="py-16 bg-white border-t border-gray-100 overflow-hidden">
+    <footer
+      id="iletisim"
+      class="py-16 bg-white border-t border-gray-100 overflow-hidden"
+    >
       <div class="max-w-full mx-auto px-4 text-center">
-        <div class="text-[10px] font-bold text-gray-400 tracking-[0.2em] uppercase mb-6">İletişim & Destek</div>
+        <div
+          class="text-[10px] font-bold text-gray-400 tracking-[0.2em] uppercase mb-6"
+        >
+          İletişim & Destek
+        </div>
         <div class="px-2">
-            <a href="mailto:destek@minicode.com.tr" class="text-xl sm:text-2xl md:text-3xl font-bold mb-4 hover:text-blue-600 transition block break-all">
-                destek@minicode.com.tr
-            </a>
+          <a
+            href="mailto:destek@minicode.com.tr"
+            class="text-xl sm:text-2xl md:text-3xl font-bold mb-4 hover:text-blue-600 transition block break-all"
+          >
+            destek@minicode.com.tr
+          </a>
         </div>
-        <p class="text-gray-400 text-sm mb-8 px-4">Sorularınız için bizimle her zaman iletişime geçebilirsiniz.</p>
-        <div class="flex justify-center space-x-4 text-xs text-gray-400 font-medium">
-          <a href="#privacy-modal" class="hover:text-blue-600 transition underline">Gizlilik Politikası</a>
+        <p class="text-gray-400 text-sm mb-8 px-4">
+          Sorularınız için bizimle her zaman iletişime geçebilirsiniz.
+        </p>
+        <div
+          class="flex justify-center space-x-4 text-xs text-gray-400 font-medium"
+        >
+          <a
+            href="#privacy-modal"
+            class="hover:text-blue-600 transition underline"
+            >Gizlilik Politikası</a
+          >
         </div>
-        <p class="mt-10 text-[10px] text-gray-300 uppercase tracking-widest">© 2026 Minicode Studios.</p>
+        <p class="mt-10 text-[10px] text-gray-300 uppercase tracking-widest">
+          © 2026 Minicode Studios.
+        </p>
       </div>
     </footer>
 
-    <div id="privacy-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 items-center justify-center p-4">
-      <div class="bg-white max-w-lg w-full p-8 rounded-2xl shadow-2xl relative overflow-y-auto max-h-[70vh]">
-        <a href="#" class="absolute top-4 right-6 text-2xl text-gray-400 hover:text-gray-600">&times;</a>
-        <h2 class="text-xl font-black mb-6 text-blue-600 border-b pb-2">Gizlilik Politikası</h2>
+    <div
+      id="privacy-modal"
+      class="fixed inset-0 bg-black bg-opacity-50 z-50 items-center justify-center p-4"
+    >
+      <div
+        class="bg-white max-w-lg w-full p-8 rounded-2xl shadow-2xl relative overflow-y-auto max-h-[85vh]"
+      >
+        <a
+          href="#"
+          class="absolute top-4 right-6 text-2xl text-gray-400 hover:text-gray-600"
+          >&times;</a
+        >
+        <h2 class="text-xl font-black mb-6 text-blue-600 border-b pb-2">
+          Gizlilik Politikası
+        </h2>
         <div class="text-gray-600 space-y-4 text-left text-xs leading-relaxed">
-          <p><strong>Veri Güvenliği:</strong> Minicode, kullanıcı gizliliğini temel alır. Verileriniz üçüncü taraflarla paylaşılmaz.</p>
-          <p><strong>Cihaz Erişimi:</strong> Uygulamalarımız sadece gerekli olan sistem izinlerini talep eder.</p>
-          <p><strong>İletişim:</strong> destek@minicode.com.tr</p>
+          <p class="font-bold text-sm">Cepte Uygulaması Hakkında</p>
+          <p>
+            Minicode tarafından geliştirilen <strong>Cepte</strong> uygulaması,
+            kullanıcıların kişisel harcamalarını ve faturalarını takip
+            etmelerine yardımcı olur. Gizliliğiniz bizim için tıp etiği kadar
+            değerlidir.
+          </p>
+
+          <p>
+            <strong>1. Kamera Erişimi:</strong> Uygulamamız, harcama
+            belgelerinin (fiş, fatura vb.) fotoğrafını çekip uygulamaya
+            kaydedebilmeniz için kamera izni talep eder. Bu izin sadece
+            kullanıcı tetiklediğinde aktif olur.
+          </p>
+
+          <p>
+            <strong>2. Veri Saklama:</strong> Çekilen fotoğraflar ve girilen
+            veriler cihazınızda veya Firebase (Google) altyapısı kullanılarak
+            güvenli bir şekilde saklanır.
+          </p>
+
+          <p>
+            <strong>3. Üçüncü Taraflar:</strong> Verileriniz asla reklam
+            şirketleri veya üçüncü taraf şahıslarla paylaşılmaz, satılmaz.
+          </p>
+
+          <p>
+            <strong>4. Kullanıcı Hakları:</strong> Verilerinizi istediğiniz
+            zaman uygulama içinden silebilir veya hesabınızı kapatabilirsiniz.
+          </p>
+
+          <div class="bg-blue-50 p-4 rounded-lg">
+            <p>
+              <strong>İletişim:</strong><br />
+              Her türlü soru ve destek talebi için: <br />
+              <span class="font-bold">destek@minicode.com.tr</span>
+            </p>
+          </div>
+
+          <p class="text-[10px] text-gray-400">Son Güncelleme: Nisan 2026</p>
         </div>
       </div>
     </div>
